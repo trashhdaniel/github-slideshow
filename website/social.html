@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nidhogg - Social</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+      function myFunction() {
+        document.getElementById('yes').style.display = 'inline-block'
+        document.getElementById('yes').innerHTML = 'Ok, im gonna make more!'
+        document.getElementById('nobttn').style.display = 'none'
+      }
+      function anotherFunction() {
+        document.getElementById('no').style.display = 'inline-block'
+        document.getElementById('no').innerHTML = 'Ok then, i wont make more'
+        document.getElementById('nobtn').style.display = 'none'
+      }
+    </script>
+  </head>
+  <body>
+    <section class="container">
+      <div class="half-width">
+        <h1 class="purple-color">Social Media</h1>
+        <h3>The only social medias i use are<span class="purple-color"> Snapchat</span> and <span class="purple-color">Instagram</span></h3>
+        <p>I only use those because i find them best, and here i will teach you how to make beautiful stories and posts.</p>
+      </div>
+      <div class="half-widthimg">
+        <img class="side-img" src="images/instagram.jpg">
+      </div>
+    </section>
+    <section class="container">
+      <div class="half-widthimg">
+        <img class="side-img" src="images/sp.png">
+      </div>
+      <div class="half-width">
+        <h2 class="purple-color">Instagram Stories</h2>
+        <h4>I really liked how it looks when you put a photo of nature, then scale it down and put some lyrics on the sides of the image. If you want to have really good-looking photos, i recommend this app called "VSCO", there you will edit the photo and to have beutiful text, use InShot.</h4>
+      </div>
+    </section>
+    <section class="container experiences">
+      <h1 class="purple-color">Feed</h1>
+        <div class="experience-item">
+          <h3>Photos</h3>
+          <p class="purple-color">How to edit photos</p>
+          <p>To edit photos, i use apps called PicsArt, KujiCam and VSCO. I think those apps are the best edting apps you can find. First, i use KujiCam, i import a photo there and it will edit it automatically, but almost everytime i edit it by myself, because the auto-edit isn't so good. After that, i go to PicsArt and add some filters to the photo, in PicsArt are the best filters. You can add border in that app too! Then i import it in VSCO and i edit that always other way, than i  did before</p>
+        </div>
+        <div class="experience-item">
+          <p class="purple-color">Uploading</p>
+          <h1>!!NOT READY YET!!</h1>
+          <h3>Do you want more?</h3>
+          <button type="button" id="nobtn" class="btn1" onclick="myFunction()">Yes!</button><button type="button" id="nobttn" class="btn2" onclick="anotherFunction()">No!</button>
+            <h1 id="yes"></h1>
+            <h1 id="no"></h1>
+        </div>
+      </section>
+    <footer>
+      <p>@trashh_daniel on Instagram</p>
+      <a target="_blank" href="htmlearning.html">HTML School</a>
+    </footer>
+  </body>
+</html>
